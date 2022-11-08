@@ -1,5 +1,5 @@
 imap jj <Esc>
-nnoremap Y v$y
+nmap Y v$y
 
 set clipboard=unnamed
 

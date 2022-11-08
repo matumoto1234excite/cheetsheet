@@ -1,0 +1,20 @@
+:root {
+  --red: #d91616;
+}
+
+.theme-light {
+  --color-code: var(--red);
+}
+
+.theme-dark {
+  --color-code: var(--red);
+}
+
+.cm-s-obisidian span.cm-inline-code {
+  color: red;
+}
+
+.markdown-preview-view code {
+  color: #D91616;
+}
+

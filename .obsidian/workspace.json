@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "a4845dd4c4fee97f",
+        "id": "fec671a988df8537",
         "type": "tabs",
         "children": [
           {
-            "id": "4f04f416cae8e94c",
+            "id": "3d9421ac02a69602",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "VSCode/vscode-extensions.md",
+                "file": "Go/go-vcr.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "VSCode/vscode-extensions.md",
+                "file": "Go/go-vcr.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "VSCode/vscode-extensions.md",
+                "file": "Go/go-vcr.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "VSCode/vscode-extensions.md"
+                "file": "Go/go-vcr.md"
               }
             }
           }
@@ -139,6 +139,9 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "4f04f416cae8e94c",
-  "lastOpenFiles": []
+  "active": "3d9421ac02a69602",
+  "lastOpenFiles": [
+    "Go/go-vcr.md",
+    "VSCode/vscode-extensions.md"
+  ]
 }
