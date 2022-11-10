@@ -1,0 +1,23 @@
+便利な拡張機能一覧
+
+- Code Spell Checker
+	- いらないかと思ったけど、割と欲しい
+- Error Lens
+	- これもいらないかと思ったけど、割と欲しい
+- Explicit Folding
+	- `// {{{` とかで折り畳みができる
+- GitHub Copilot
+	- 必須
+- GitHub Pull Requests and Issues
+	- 常用はしないけど、あると便利
+- Open in GitHub
+	- 結構欲しい
+- Trailing Spaces
+	- 必須
+- vscode-icons
+	- ちょっとリッチになるので嬉しい
+- VSpaceCode
+	- SpaceMacsのキーバインドが使える
+	- 必須
+- Vim
+	- 必須
