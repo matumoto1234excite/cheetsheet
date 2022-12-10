@@ -9,3 +9,5 @@
 vanilla-extractはCSSinJS(TS)なCSSスタイリングライブラリ
 
 .css.tsというようなファイルにスタイルを記述してそれをimportする形で使っていく
+
+- [Vite + React + TS + vanilla-extract +α が動作するサンプルリポジトリを作った](https://zenn.dev/meijin/articles/vite-react-ts-vanilla-extract-playground)
