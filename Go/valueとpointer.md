@@ -1,0 +1,1 @@
+- https://zenn.dev/naoki_kuroda/scraps/952e0fbcd45fe9
