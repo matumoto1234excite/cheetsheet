@@ -13,15 +13,26 @@
 
 ちなみに、[このブログ](https://firebase.blog/posts/2017/11/whats-new-with-fcm-customizing-messages)の投稿日時をみた感じHTTP v1 APIが発表されたのは2017年らしい？
 
+## GCM Sender ID機能について(2023/02/22 追記)
+
+久しぶりに動かしてみようとしたら、おそらくGCM Sender ID機能が2022年後半に削除されているような記述があった
+
+- [https://bugs.chromium.org/p/chromium/issues/detail?id=979235](https://bugs.chromium.org/p/chromium/issues/detail?id=979235)
+
+これによって、GCMを使ったような古いWebプッシュ通知の方式が廃止されたので気をつけるべし
+
 ## Legacy HTTP APIについて
 
-Legacy HTTP APIでは、https://fcm.googleapis.com/fcm/sendがエンドポイントとして用意されている
+※この方式では前述したGCMSenderIDの変更によりうまくいかないので注意
+
+Legacy HTTP APIでは、`https://fcm.googleapis.com/fcm/send`がエンドポイントとして用意されている
 
 プッシュ通知を送るための大まかな流れとして、以下のようになる
 
 1.  FCMの登録トークンを取得する
     
-2.  https://fcm.googleapis.com/fcm/sendにプッシュ通知メッセージ内容と登録トークンをPOSTする
+2.  `https://fcm.googleapis.com/fcm/send`にプッシュ通知メッセージ内容と登録トークンをPOSTする
+    - `Authorization: key=ここにFirebase Consoleにかかれているサーバーキー` をHTTPリクエストヘッダーに追加
     
 3.  プッシュ通知が送られる
     
